@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 import './App.css';
 
@@ -8,18 +7,20 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <nav className="App-header-nav">
+            <img src="./images/ironhack-logo.svg" alt="Ironhack Logo" />
+            <img src="./images/menu-top.svg" alt="Ironhack Logo" />
+          </nav>
+          <article className="App-header-intro">
+            <h1 className="App-header-intro-title">Say hello to ReactJS</h1>
+            <p className="App-header-intro-body">
+              You will learn a Frontend framework from scratch, to become a
+              Ninja Developer
+            </p>
+            <a className="App-header-intro-action" href="/">
+              Awesome
+            </a>
+          </article>
         </header>
       </div>
     );
