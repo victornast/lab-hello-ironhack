@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import './components/Advantages';
+import Advantages from './components/Advantages';
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
             </a>
           </article>
         </header>
+        <Advantages />
       </div>
     );
   }

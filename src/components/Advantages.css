@@ -1,0 +1,20 @@
+.Advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4em;
+  list-style: none;
+}
+
+.Advantages-list-item {
+  margin: 0;
+  max-width: 10em;
+}
+
+.Advantages-list-item:not(:first-child) {
+  margin-left: 3em;
+}
+
+.Advantages-list-item__icon {
+  margin-left: -1em;
+  width: 10em;
+}
